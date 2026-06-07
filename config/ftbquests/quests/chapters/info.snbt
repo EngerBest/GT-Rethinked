@@ -1,0 +1,25 @@
+{
+	autofocus_id: "30F98C1EF3888D33"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "info"
+	group: ""
+	icon: "minecraft:paper"
+	id: "770A5C7D09F075BF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "30F98C1EF3888D33"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: "minecraft:grass_block"
+			id: "5BC1A8C081B73A11"
+			title: "Enter the world"
+			type: "dimension"
+		}]
+		title: "Welcome!"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Info"
+}

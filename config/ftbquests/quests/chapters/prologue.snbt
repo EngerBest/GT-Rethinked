@@ -1,0 +1,104 @@
+{
+	autofocus_id: "7E89778BB03EE118"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "prologue"
+	group: ""
+	icon: "farmersdelight:straw"
+	id: "0648CEFF7271AADD"
+	order_index: 1
+	quest_links: [{
+		id: "7E89778BB03EE118"
+		linked_quest: "30F98C1EF3888D33"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["30F98C1EF3888D33"]
+			id: "04B2CBE63F883F0A"
+			tasks: [{
+				id: "0F9B09785A262221"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30F98C1EF3888D33"]
+			id: "09431C2C62146DA9"
+			tasks: [{
+				id: "6BD0D1FDB115E617"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09431C2C62146DA9"]
+			id: "4E89CDF629224FD6"
+			tasks: [{
+				id: "2F504A5CC28D30A6"
+				item: "mptw:flint_fragment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E89CDF629224FD6"
+				"04B2CBE63F883F0A"
+			]
+			id: "20700B229BD74CE6"
+			tasks: [{
+				id: "77A8174DD894F015"
+				item: {
+					Count: 1
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20700B229BD74CE6"]
+			id: "336A1348CC5F7459"
+			tasks: [{
+				id: "1D8EEBD4CCE0A03A"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["336A1348CC5F7459"]
+			id: "17B3F7DE4ECCD606"
+			tasks: [{
+				id: "029A19C0EB58F638"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "65CCE7A957DD0278"
+			tasks: [{
+				id: "49CBC982740E7A8C"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "Prologue"
+}
