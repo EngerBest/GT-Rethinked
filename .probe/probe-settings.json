@@ -1,0 +1,17 @@
+{
+  "configVersion": 4,
+  "enabled": true,
+  "modHash": 7774333917755651476,
+  "registryHash": -579916817721115746,
+  "isolatedScopes": true,
+  "complete": true,
+  "publicClassOnly": false,
+  "Mods with forced Full Scanning": [
+    "minecraft"
+  ],
+  "dumpCustomRecipeGenerator": false,
+  "Registry Object Filter": "^minecraft:.+$",
+  "Field As Beaning": true,
+  "Class Scanner": "EVENTS",
+  "$schema": "./config-schema.json"
+}

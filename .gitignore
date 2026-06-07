@@ -2,3 +2,5 @@ logs
 saves
 usercache.json
 usernamecache.json
+.probe/*
+!.probe/probe-settings.json
