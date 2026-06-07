@@ -79,7 +79,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["336A1348CC5F7459"]
+			dependencies: [
+				"336A1348CC5F7459"
+				"65CCE7A957DD0278"
+			]
 			id: "17B3F7DE4ECCD606"
 			tasks: [{
 				id: "029A19C0EB58F638"
@@ -93,11 +96,71 @@
 			id: "65CCE7A957DD0278"
 			tasks: [{
 				id: "49CBC982740E7A8C"
-				item: "minecraft:poppy"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:small_flowers"
+					}
+				}
+				title: "Any Flower"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["17B3F7DE4ECCD606"]
+			id: "53CCC2FDC786C678"
+			tasks: [{
+				id: "059D2FE0AF2BE411"
+				item: {
+					Count: 1
+					id: "kubejs:flint_hatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53CCC2FDC786C678"]
+			id: "51A5E2C3926977E9"
+			tasks: [{
+				id: "3C90F6CE0CBFA92A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any Log"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53CCC2FDC786C678"]
+			id: "27125A564BD7BA70"
+			tasks: [{
+				id: "4A85143E0A450F14"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^[^:]+:stripped_[^:]+_log$"
+					}
+				}
+				title: "Any Stripped Log"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
 		}
 	]
 	title: "Prologue"
